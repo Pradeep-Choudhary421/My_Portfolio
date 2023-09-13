@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    
+   <div id="header">
+    <div class="container">
+        <nav>
+        <h1><span>P</span>radeep.</h1>
+        <ul id="sidemenu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <i class="fa-solid fa-xmark" id="cancel" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-ellipsis-vertical" id="ham" onclick="openmenu()"></i>
+    </nav>
+    <video src="./images/black_-_13495 (720p).mp4" autoplay muted loop id="background-video"></video>
+    <div class="header-text">
+
+
+        
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>pradeep9783552320@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9636654403</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/jat.pradeep.39 "><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/PradeepCho64441"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/i.pradeep_0007/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pradeep-choudhary-65aab326a/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2" >Send</button>
+                    </form>
+                    </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright  © 2023 Pradeep. All Rights Reserved</p>
+    </div>
+    
+<!-- contact form script-->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyOsmV_94Fn9dqWPwtpXUGJnH2lnCyGZsa9MRuU1m5crvEwD9L0FXyOymeLGgaW9acK/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/d66a2bb36c.js" crossorigin="anonymous"></script>
+        
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loading.css">
+</head>
+<body>
+    <div class="loader">
+        <div class="l">
+          <div class="loader-inner"></div>
+        </div>
+  
+        <span>LOADING...</span>
+</div>
+
+
+
+
+    
+   <div id="header">
+    <div class="container">
+        <nav>
+        <h1><span>P</span>radeep.</h1>
+        <ul id="sidemenu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <i class="fa-solid fa-xmark" id="cancel" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-ellipsis-vertical" id="ham" onclick="openmenu()"></i>
+    </nav>
+    <video src="./images/black_-_13495 (720p).mp4" autoplay muted loop id="background-video"></video>
+    <div class="header-text">
+        
+        <h1>
+            Hello, I'm <span id="bluec">Pradeep</span>
+        </h1>
+        <div id="container">
+            <span id="text1"></span>
+            <span id="text2"></span>
+        </div>
+        
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                          0 1 0 0 0
+                          0 0 1 0 0
+                          0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
+      <p id="infor"><i class="fa-sharp fa-solid fa-arrow-right"></i>  I hail from India, and I proudly identify as a Full Stack Web Developer with a pronounced focus on both back end and front end intricacies.My passion lies in meticulously sculpting robust and dynamic solutions for the digital world. My forte encompasses not only the aesthetic appeal of frontend design but also the intricate architecture of backend systems. </p>
+    </div>
+    </div>
+   </div>
+
+   <div class="copyright-1" >
+    <p>Copyright  © 2023 Pradeep. All Rights Reserved</p>
+</div>
+
+
+
+
+<script src="index.js"></script>
+<script src="https://kit.fontawesome.com/d66a2bb36c.js" crossorigin="anonymous"></script>
+</body>
+</html>
