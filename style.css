@@ -10,8 +10,8 @@ html{
 body{
     background: #080808;
     color: #fff;
-    
     font-family: sans-serif;
+    
 }
 
 #background-video {
@@ -60,7 +60,7 @@ body {
     display: inline-block;
 
     font-family: "Raleway", sans-serif;
-    font-size: 60pt;
+    font-size: 50pt;
 
     text-align: center;
 
@@ -410,6 +410,33 @@ nav #cancel {
         right: 20px;
         cursor: pointer;
     }
+    
+#container {
+    position: relative;
+    margin: auto;
+    padding-top: 40px;
+    margin-left: 0px ;
+    width: 10%;
+    height: 20pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 30pt;
+
+    text-align: center;
+
+    user-select: none;
+}
     .sub-title{
         font-size: 40px;
     }
