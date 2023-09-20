@@ -350,6 +350,7 @@ form input, form textarea{
     font-size: 18px;
     margin-left: -60px;
     background: #262626;
+    overflow-x: hidden;
     font-weight: 300;
     margin-top: 200px;
 }
@@ -362,6 +363,7 @@ form input, form textarea{
     background: #262626;
     font-weight: 300;
     margin-top: 200px;
+    overflow-x: hidden;
 }
 
 
