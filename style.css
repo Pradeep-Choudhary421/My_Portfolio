@@ -368,8 +368,10 @@ form input, form textarea{
 
 
 #line{
-    width: 94%;
-    background-color: #080808;
+    width: 96%;
+    background-color: #1121F2;
+    border-color: #1121F2;
+    padding: 1px;
     /* margin-left: 10%; */
     margin-top: 300px;
 }
@@ -466,5 +468,9 @@ nav #cancel {
    }
    .copyright{
     font-size: 14px;
+   }
+   .animate-charcter{
+    font-size: 48px;
+    /* margin-left: -37px; */
    }
 }
