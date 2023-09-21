@@ -368,8 +368,9 @@ form input, form textarea{
 
 
 #line{
-    width: 80%;
-    margin-left: 10%;
+    width: 94%;
+    background-color: #080808;
+    /* margin-left: 10%; */
     margin-top: 300px;
 }
 /* css for responsive-------- */
