@@ -367,6 +367,11 @@ form input, form textarea{
 }
 
 
+#line{
+    width: 86%;
+    margin-left: 10%;
+    margin-top: 300px;
+}
 /* css for responsive-------- */
 nav #cancel {
     display: none;
