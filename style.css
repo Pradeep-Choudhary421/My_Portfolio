@@ -358,9 +358,9 @@ form input, form textarea{
 
 .copyright-1{
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     padding: 22px;
-    background: #262626;
+    /* background: #262626; */
     font-weight: 300;
     margin-top: 200px;
     overflow-x: hidden;
