@@ -356,19 +356,19 @@ form input, form textarea{
 }
 
 
-.copyright-1{
-    width: 100%;
-    /* text-align: center; */
-    padding: 22px;
-    /* background: #262626; */
-    font-weight: 300;
-    margin-top: 200px;
-    overflow-x: hidden;
-}
-
 
 #line{
     width: 96%;
+    background-color: #1121F2;
+    border-color: #1121F2;
+    padding: 1px;
+    /* margin-left: 10%; */
+    margin-top: 50px;
+}
+#line-1{
+    
+    width: 96%;
+    margin-left: 2%;
     background-color: #1121F2;
     border-color: #1121F2;
     padding: 1px;
