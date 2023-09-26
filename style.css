@@ -38,6 +38,7 @@ body{
 
 body {
     margin: 0px;
+    overflow-x: hidden;
 }
 
 #container {
@@ -134,14 +135,19 @@ nav  ul  li a:hover::after{
 
 /* About--------- */
 #about{
-    padding: 0px 80px;
+    padding: 0px 0px;
     color: #ababab;
-    margin-left: 5%;
+    /* margin-left: 5%; */
+    margin-right: 3%;
 } 
 .row{
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.about-p{
+    width: 90%;
 }
 .about-col-1{
     flex-basis: 35%;
