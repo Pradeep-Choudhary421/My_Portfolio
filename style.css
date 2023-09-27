@@ -320,6 +320,7 @@ nav  ul  li a:hover::after{
 
 }
 .cv{
+    flex-basis: 50%;
     width: 180px;
     background-color: #1121F2;
     text-align: center;
