@@ -139,6 +139,7 @@ nav  ul  li a:hover::after{
     color: #ababab;
     /* margin-left: 5%; */
     margin-right: 3%;
+    height: 550px;
 } 
 .row{
     /* width: 100%; */
@@ -154,8 +155,10 @@ nav  ul  li a:hover::after{
 }
 .about-col-1 img{
     width: 50%;
+    margin-left: 20%;
     margin-top: 40px;
     border-radius: 10%;
+    
     /* filter: grayscale(10); */
 }
 .about-col-1 img:hover{
@@ -266,6 +269,7 @@ nav  ul  li a:hover::after{
     transform: scale(1.2);
 }
 .btn{
+
     display: block;
     margin: 50px auto;
     width: fit-content;
@@ -322,19 +326,28 @@ nav  ul  li a:hover::after{
 .cv{
     flex-basis: 50%;
     width: 180px;
-    background-color: #1121F2;
+    font-size: medium;
+    background-color: #fff;
     text-align: center;
+    color: #080808;
     padding: 14px;
     margin-top: 30px;
-    border-radius: 7%;
-
+    border-radius: 5%;
+    transition: 0.3s;
 }
 .cv a{
-    /* background-color: #1121F2; */
+    color: #000;
     text-decoration: none;
-    color: #fff;
-
 }
+.cv:hover{
+  cursor: pointer;
+  background-color: #1121F2;
+  color: #fff;
+}
+.cv > a:hover{
+    
+    background-color: #1121F2;
+  }
 .btn2{
     display: block;
     width: fit-content;
