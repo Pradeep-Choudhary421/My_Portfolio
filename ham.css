@@ -18,6 +18,6 @@
       filter: hue-rotate(0deg);
     }
     to {
-      filter: hue-rotate(90deg);
+      filter: hue-rotate(40deg);
     }
   }
