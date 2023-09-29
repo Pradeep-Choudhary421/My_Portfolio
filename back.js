@@ -21,7 +21,7 @@ for (let i = 0; i < numBalls; i++) {
 // Keyframes
 balls.forEach((el, i, ra) => {
   let to = {
-    x: Math.random() * (i % 2 === 0 ? -11 : 11),
+    x: Math.random() * (i % 2 === 0 ? -1 : 1),
     y: Math.random() * 12
   };
 
