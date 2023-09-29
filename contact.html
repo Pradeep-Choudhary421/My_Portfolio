@@ -50,6 +50,16 @@
                         <input type="email" name="email" placeholder="Your Email" required>
                         <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn2" >Send</button>
+                        <script>
+                            
+                            const refreshButton = document.querySelector('.btn2');
+                    
+                            
+                            refreshButton.addEventListener('click', function () {
+                                // Reload the current page
+                                location.reload();
+                            });
+                        </script>
                     </form>
                     </div>
             </div>
