@@ -1,7 +1,7 @@
 // Some random colors
-const colors = ["#000", "#000", "#000", "#f4fdfe", "#f4fdfe"];
+const colors = ["#000", "#f4fdfe", "#000", "#000", "#f4fdfe"];
 
-const numBalls = 60;
+const numBalls = 80;
 const balls = [];
 
 for (let i = 0; i < numBalls; i++) {
@@ -22,7 +22,7 @@ for (let i = 0; i < numBalls; i++) {
 balls.forEach((el, i, ra) => {
   let to = {
     x: Math.random() * (i % 2 === 0 ? -1 : 1),
-    y: Math.random() * 12
+    y: Math.random() * 18
   };
 
   let anim = el.animate(

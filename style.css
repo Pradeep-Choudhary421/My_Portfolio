@@ -348,7 +348,7 @@ nav  ul  li a:hover::after{
     padding: 14px;
     margin-top: 30px;
     border-radius: 5%;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 .cv a{
     color: #000;
