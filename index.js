@@ -15,6 +15,20 @@ function opentab(tabname) {
 
 
 
+// click to enter
+$(document).ready(function () {
+    $('.btn').click(function (e) {
+        e.preventDefault();
+        $('.overlay').toggleClass('show');
+        $(this).hide();
+        
+        // Add this line to open the "home.html" file in the same window
+        window.location.href = 'home.html';
+    });
+});
+
+
+
 // -----ham
 var sidemenuw = document.getElementById("sidemenu");
 function openmenu() {

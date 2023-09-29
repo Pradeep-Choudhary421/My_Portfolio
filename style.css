@@ -14,7 +14,22 @@ body{
     
 }
 
-#background-video {
+.btnforclick {
+    overflow: hidden;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    background: black;
+    border: solid #fff;
+    border-width: 1px 1px 1px;
+    transform: translateX(-50%);
+    z-index: 99;
+  }
+/* #background-video {
     width: 100vw;
     height: 125vh;
     object-fit: cover;
@@ -25,7 +40,7 @@ body{
     bottom: 0;
     z-index: -1;
     opacity: 20%;
-  }
+  } */
 #header{
     width: 100%;
     height: 125vh;
@@ -387,18 +402,19 @@ form input, form textarea{
     /* margin-left: -60px; */
     /* background: #262626; */
     font-weight: 300;
-    /* margin-top: 200px; */
+    /* margin-top: 43%; */
 }
 
 
 
 #line{
     width: 96%;
+    /* margin-top: 43%; */
     background-color: #1121F2;
     border-color: #1121F2;
     padding: 1px;
     /* margin-left: 10%; */
-    margin-top: 50px;
+    /* margin-top: 400px; */
 }
 #line-1{
     
@@ -504,9 +520,16 @@ nav #cancel {
    }
    .copyright{
     font-size: 14px;
+
+   }
+   #line{
+    margin-top: 370px;
    }
    .animate-charcter{
     font-size: 48px;
     /* margin-left: -37px; */
+   }
+   .btn{
+    margin-bottom: -200px;
    }
 }
