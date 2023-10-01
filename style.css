@@ -376,7 +376,8 @@ nav  ul  li a:hover::after{
     transform: translateY(-5px);
 
 }
-.cv{
+
+.cv #downloadButton{
     flex-basis: 50%;
     width: 180px;
     font-size: medium;
@@ -385,21 +386,14 @@ nav  ul  li a:hover::after{
     color: #080808;
     padding: 14px;
     margin-top: 30px;
-    border-radius: 5%;
+    border-radius: 8%;
     transition: 0.5s;
 }
-.cv a{
-    color: #000;
-    text-decoration: none;
-}
-.cv:hover{
-  cursor: pointer;
-  background-color: #1121F2;
-  color: #fff;
-}
-.cv > a:hover{
-    
+
+.cv > #downloadButton:hover{
+    cursor: pointer;
     background-color: #1121F2;
+    color: #fff;
   }
 .btn2{
     display: block;
