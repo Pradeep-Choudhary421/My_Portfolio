@@ -465,6 +465,31 @@ form input, form textarea{
     /* margin-left: 10%; */
     margin-top: 50px;
 }
+#line-2{
+    
+    width: 96%;
+    margin-left: 2%;
+    background-color: #1121F2;
+    border-color: #1121F2;
+    padding: 1px;
+    /* margin-left: 10%; */
+    margin-top: 40px;
+
+}
+
+@media (max-width: 1100px) {
+    #line-2{
+    
+        width: 96%;
+        margin-left: 2%;
+        background-color: #1121F2;
+        border-color: #1121F2;
+        padding: 1px;
+        /* margin-left: 10%; */
+        margin-top: 450px;
+    
+    }    
+}
 /* css for responsive-------- */
 nav #cancel {
     display: none;
