@@ -41,7 +41,7 @@
                         <a href="https://www.linkedin.com/in/pradeep-choudhary-65aab326a/"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                     <div class="cv">
-                        <button id="downloadButton">Download PDF</button>
+                        <button id="downloadButton">Download CV</button>
 
                     </div>
                 </div>
@@ -88,22 +88,19 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-    // Get the button element
+    
     var downloadButton = document.getElementById('downloadButton');
 
-    // Define the PDF file URL
-    var pdfUrl = '/images/Resume_2023-09-28_3669696.pdf'; // Replace with the actual path to your PDF file
+    var pdfUrl = '/images/Resume_2023-09-28_3669696.pdf';
 
     // Add a click event listener to the button
     downloadButton.addEventListener('click', function () {
-        // Create an anchor element
         var a = document.createElement('a');
         a.href = pdfUrl;
 
         // Set the anchor's download attribute to the desired filename
-        a.download = 'example.pdf'; // Change 'example.pdf' to the desired filename
+        a.download = 'cv.pdf'; // Change 'example.pdf' to the desired filename
 
-        // Trigger a click event on the anchor element
         a.click();
     });
 });
