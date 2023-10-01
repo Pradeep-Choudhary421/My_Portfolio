@@ -211,7 +211,7 @@
   @media (max-width: 600px) {
     .threeholder{
         width: 100%;
-        /* margin-left: -50px; */
+        margin-left: -5px;
         align-items: center;
         text-align: center;
        height: 480px;

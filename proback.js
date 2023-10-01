@@ -22,7 +22,7 @@ for (let i = 0; i < numBalls; i++) {
 balls.forEach((el, i, ra) => {
   let to = {
     x: Math.random() * (i % 2 === 0 ? 0 : 0),
-    y: Math.random() * 68
+    y: Math.random() * 192
   };
 
   let anim = el.animate(
