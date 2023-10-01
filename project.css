@@ -97,6 +97,19 @@ a {
     transform: perspective(600px) rotateY(360deg);
 }
 
+
+@media (max-width: 1108px) {
+    .wrapper {
+        grid-template-columns: 1fr; /* Change to a single column layout */
+        row-gap: 40px; /* Row gap is 40px */
+        column-gap: 0; /* No column gap */
+    }
+
+    .card {
+        max-width: none; /* Remove the max-width constraint */
+    }
+}
+
 /* Media Query for Mobile */
 @media (max-width: 768px) {
     .wrapper {
