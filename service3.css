@@ -1,0 +1,288 @@
+
+.threeholder {
+    position: relative;
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    width: 800px;
+    height:350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .threeone {
+    display: flex;
+    width: 33.33333333333%;
+    height: 100%;
+    background: #fff;
+    border-bottom: 15px solid blue;
+    text-align: center;
+    transition: all 0.25s;
+  }
+  .threetwo {
+    display: flex;
+    width: 33.333333333%;
+    height: 100%;
+    background: #fff;
+    border-bottom: 15px solid blue;
+    transition: all 0.25s;
+  }
+  .threethree {
+    display: flex;
+    width: 33.333333333%;
+    height: 100%;
+    background: #fff;
+    border-bottom: 15px solid blue;
+    transition: all 0.25s;
+  }
+  .threeone:hover {
+    background: blue;
+  }
+  .threeone:hover .circlepic {
+    background: #fff;
+  }
+  .threeone:hover .circleborder{
+      background: #fff;
+  }
+  .threeone:hover svg{
+    fill:blue;
+  }
+  .threeholder h4 {
+    width: 200px;
+    text-align: center;
+    font-size: 13px;
+    margin-left: -55px;
+    font-weight: bold;
+    margin-top: 45px;
+    text-align: center;
+    color: #000;
+  }
+  .threeholder p {
+    display: inline-block;
+    width:200px;
+    text-align: center;
+    margin-left: -55px;
+    margin-top: 20px;
+    font-size: 12px;
+    color:#8a8a8a;
+    letter-spacing: 1px;
+  }
+  .threeone:hover h4 {
+    color: #fff;
+  }
+  .threetwo:hover h4 {
+    color: #fff;
+  }
+  .threethree:hover h4 {
+    color: #fff;
+  }
+  .threeone:hover svg, .threetwo:hover svg, .threethree:hover svg {
+    transition: all 0.65s;
+    transform: rotateY(360deg);
+  }
+  .threetwo:hover {
+    background: blue;
+  }
+  .threetwo:hover .circleborder{
+      background: #fff;
+  }
+  
+  .threeone svg {
+    margin-left: 1px;
+     margin-top:18px
+  }
+  .threetwo svg {
+    margin-left: 23px;
+     margin-top:18px
+  }
+  
+  .threethree svg {
+    margin-left: 23px;
+     margin-top:18px
+  }
+  .threetwo:hover svg{
+    fill:blue;
+  }
+  .threethree:hover {
+    background: blue;
+  }
+  .threethree:hover .circleborder{
+      background: #fff;
+  }
+  .threethree:hover svg{
+    fill:blue;
+  }
+  .circleborder {
+    position: absolute;
+    top: 30px;
+    width: 90px;
+    height: 90px;
+    background: blue;
+    margin-left: 88.33333px;
+    border-radius: 50%;
+  }
+  .circlepic {
+    position:absolute;
+    top:-10px;
+    margin-top: 30px;
+    width: 110px;
+    height: 110px;
+    background: #fff;
+    margin-left: 78.33333px;
+    border-radius: 50%;
+  }
+  @media (max-width: 950px) {
+    .threeholder{
+        width: 100%;
+        /* margin-left: -50px; */
+        align-items: center;
+        text-align: center;
+       height: 380px;
+    }
+    .threeholder p {
+        width: 150px;
+        margin-left: -80px;
+    }
+    .threeone{
+        
+        align-items: center;
+        text-align: center;
+        width: 33%;
+        /* margin-left: -10px; */
+    }
+    .threetwo{
+        width: 33%;
+
+    }
+    .threethree{
+        width: 33%;
+    }
+    .threeone h4 {
+        margin-left: -100px;
+      }
+      .threetwo h4 {
+        margin-left: -100px;
+      }
+      .threethree h4 {
+        margin-left: -100px;
+      }
+  .threeone:hover h4 {
+    margin-left: -100px;
+  }
+  .threetwo:hover h4 {
+    margin-left: -100px;
+  }
+  .threethree:hover h4 {
+    margin-left: -100px;
+  }
+
+  .circleborder {
+    
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 90px;
+    background: blue;
+    margin-left: 88.33333px;
+    border-radius: 50%;
+
+  }
+  .circlepic {
+    position:absolute;
+    margin-left: 25.33333px;
+    
+    
+  }
+  .threeone svg{
+    margin-top: 47px;
+    margin-left: -32px;
+  }
+  .threetwo svg{
+    margin-top: 47px;
+    margin-left: -32px;
+  }
+  .threethree svg{
+    margin-top: 47px;
+    margin-left: -32px;
+  }
+  
+  }
+  @media (max-width: 600px) {
+    .threeholder{
+        width: 100%;
+        /* margin-left: -50px; */
+        align-items: center;
+        text-align: center;
+       height: 480px;
+    }
+    .threeholder p {
+        width: 80px;
+        margin-left: -72px;
+    }
+    .threeone{
+        
+        align-items: center;
+        text-align: center;
+        width: 33%;
+        /* margin-left: -10px; */
+    }
+    .threetwo{
+        width: 33%;
+
+    }
+    .threethree{
+        width: 33%;
+    }
+    .threeone h4 {
+        margin-left: -132px;
+      }
+      .threetwo h4 {
+        margin-left: -132px;
+      }
+      .threethree h4 {
+        margin-left: -132px;
+      }
+  .threeone:hover h4 {
+    margin-left: -132px;
+  }
+  .threetwo:hover h4 {
+    margin-left: -132px;
+  }
+  .threethree:hover h4 {
+    margin-left: -132px;
+  }
+
+  .circleborder {
+    
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 90px;
+    background: blue;
+    margin-left: 88.33333px;
+    border-radius: 50%;
+
+  }
+  .circlepic {
+    width: 75px;
+    height: 75px;
+    position:absolute;
+    margin-left: 15.33333px;
+    
+    
+  }
+  .threeone svg{
+    margin-top: 33px;
+    margin-left: -67px;
+  }
+  .threetwo svg{
+    margin-top: 33px;
+    margin-left: -67px;
+  }
+  .threethree svg{
+    margin-top: 33px;
+    margin-left: -67px;
+  }
+  
+  }
