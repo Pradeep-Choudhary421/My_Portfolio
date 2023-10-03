@@ -41,7 +41,8 @@
                         <a href="https://www.linkedin.com/in/pradeep-choudhary-65aab326a/"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                     <div class="cv">
-                        <button id="downloadButton">Download CV</button>
+                        <!-- <button id="downloadButton">Download CV</button> -->
+                        <a href="https://drive.google.com/file/d/1eqiacPcXZHUXFHli2pOhuMqSsL6wF_B4/view?usp=drive_link">RESUME</a>
 
                     </div>
                 </div>
@@ -84,29 +85,6 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
-  <!-- download -->
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-    
-    var downloadButton = document.getElementById('downloadButton');
-
-    var pdfUrl = '/images/Resume_2023-09-28_3669696.pdf';
-
-    // Add a click event listener to the button
-    downloadButton.addEventListener('click', function () {
-        var a = document.createElement('a');
-        a.href = pdfUrl;
-
-        // Set the anchor's download attribute to the desired filename
-        a.download = 'cv.pdf'; // Change 'example.pdf' to the desired filename
-
-        a.click();
-    });
-});
-
-  </script>
-
 <script src="back.js"></script>
     <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/d66a2bb36c.js" crossorigin="anonymous"></script>
