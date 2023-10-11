@@ -1,7 +1,7 @@
 // Some random colors
-const colors = ["#f4fdfe", "#f4fdfe", "#f4fdfe", "#f4fdfe", "#f4fdfe"];
+const colors = ["#f4fdfe", "#f4fdfe", "#000", "#f4fdfe", "#f4fdfe"];
 
-const numBalls = 80;
+const numBalls = 30;
 const balls = [];
 
 for (let i = 0; i < numBalls; i++) {
