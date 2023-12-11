@@ -62,7 +62,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     transform: perspective(600px) rotateY(180deg);
-    background: blue;
+    background: #09F5F6;
     padding: 15px;
     color: #fff;
     text-align: center;

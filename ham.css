@@ -1,11 +1,11 @@
 #ham {
   font-size: 8em;
-  background-color: #1121F2;
+  background-color: #09F5F6;
   color: #fff;
-  box-shadow: 2px 2px 2px #1121F2, 10px 1px 12px #1121F2,
-    2px 2px 10px #1121F2, 2px 2px 3px #1121F2, inset 2px 2px 10px #1121F2,
-    inset 2px 2px 10px #1121F2, inset 2px 2px 10px #1121F2,
-    inset 2px 2px 10px #1121F2;
+  box-shadow: 2px 2px 2px #09F5F6, 10px 1px 12px #09F5F6,
+    2px 2px 10px #09F5F6, 2px 2px 3px #09F5F6, inset 2px 2px 10px #09F5F6,
+    inset 2px 2px 10px #09F5F6, inset 2px 2px 10px #09F5F6,
+    inset 2px 2px 10px #09F5F6;
   border-radius: 15px;
   padding: 9px 9px;
   margin: 0 40px;

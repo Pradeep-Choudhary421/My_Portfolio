@@ -119,7 +119,7 @@ nav h1{
 }
 nav h1 span {
     font-size: 40px;
-    color: #1121F2;
+    color: #09F5F6;
 }
 nav  ul  li{
     display: inline-block;
@@ -136,7 +136,7 @@ nav  ul  li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background:#1121F2;
+    background:#09F5F6;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -165,7 +165,7 @@ nav  ul  li a:hover::after{
     display: inline-block;
 } 
 .header-text h1 #bluec{
-    color: #1121F2;
+    color: #09F5F6;
 }
 
 
@@ -227,7 +227,7 @@ nav  ul  li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #09F5F6;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -262,7 +262,7 @@ nav  ul  li a:hover::after{
   background-image: linear-gradient(
     -225deg,
     #231557 0%,
-    #1121F2 29%,
+    #09F5F6 29%,
     #ff1361 67%,
     #fff800 100%
   );
@@ -296,7 +296,7 @@ nav  ul  li a:hover::after{
   background-image: linear-gradient(
     -225deg,
     #231557 0%,
-    #1121F2 29%,
+    #09F5F6 29%,
     #ff1361 67%,
     #fff800 100%
   );
@@ -369,7 +369,7 @@ nav  ul  li a:hover::after{
     margin: 30px -8px;
 } 
 .contact-left p i{
-    color: #1121F2;
+    color: #09F5F6;
     margin-right:15px;
     font-size: 25px;
 }
@@ -386,7 +386,7 @@ nav  ul  li a:hover::after{
     transition: transform(0.5s);
 }
 .social-icons a:hover{
-    color: #1121F2;
+    color: #09F5F6;
     transform: translateY(-5px);
 
 }
@@ -409,13 +409,13 @@ nav  ul  li a:hover::after{
 
 .cv > a:hover{
     cursor: pointer;
-    background-color: #1121F2;
+    background-color: #09F5F6;
     color: #fff;
   }
 .btn2{
     display: block;
     width: fit-content;
-    border: 1px solid #1121F2;
+    border: 1px solid #09F5F6;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -425,7 +425,7 @@ nav  ul  li a:hover::after{
 
 }
 .btn2:hover{
-    background-color: #1121F2;
+    background-color: #09F5F6;
     cursor: pointer;
     color: #fff;
 }
@@ -459,8 +459,8 @@ form input, form textarea{
 #line{
     width: 96%;
     /* margin-top: 43%; */
-    background-color: #1121F2;
-    border-color: #1121F2;
+    background-color: #09F5F6;
+    border-color: #09F5F6;
     padding: 1px;
     /* margin-left: 10%; */
     
@@ -470,8 +470,8 @@ form input, form textarea{
     
     width: 96%;
     margin-left: 2%;
-    background-color: #1121F2;
-    border-color: #1121F2;
+    background-color: #09F5F6;
+    border-color: #09F5F6;
     padding: 1px;
     /* margin-left: 10%; */
     margin-top: 50px;
@@ -480,8 +480,8 @@ form input, form textarea{
     
     width: 96%;
     margin-left: 2%;
-    background-color: #1121F2;
-    border-color: #1121F2;
+    background-color: #09F5F6;
+    border-color: #09F5F6;
     padding: 1px;
     /* margin-left: 10%; */
     margin-top: 40px;
@@ -493,8 +493,8 @@ form input, form textarea{
     
         width: 96%;
         margin-left: 2%;
-        background-color: #1121F2;
-        border-color: #1121F2;
+        background-color: #09F5F6;
+        border-color: #09F5F6;
         padding: 1px;
         /* margin-left: 10%; */
         margin-top: 450px;
@@ -525,7 +525,7 @@ nav #cancel {
         transition: 0.5s;
     }
     nav ul {
-        background: #1121F2;
+        background: #09F5F6;
         position: fixed;
         top: 0;
         right: -200px;
