@@ -4,13 +4,22 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: lemonMilk;
+    src: url(./lemon_milk/LEMONMILK-BoldItalic.otf);
+  }
+
+@font-face {
+    font-family: lemonMilkLight;
+    src: url(./lemon_milk/LEMONMILK-Regular.otf);
+  }
 html{
     scroll-behavior: smooth;
 }
 body{
     background: #080808;
     color: #fff;
-    font-family: sans-serif;
+    font-family: lemonMilk;
     
 }
 body {
@@ -118,8 +127,10 @@ nav h1{
     font-size: 30px;
 }
 nav h1 span {
+
     font-size: 40px;
     color: #09F5F6;
+    font-family: lemonMilk;
 }
 nav  ul  li{
     display: inline-block;
@@ -131,6 +142,7 @@ nav  ul  li  a{
     text-decoration: none;
     font-size: 18px;
     position: relative;
+    font-family: lemonMilk;
 }
 nav  ul  li a::after {
     content: '';
@@ -151,12 +163,14 @@ nav  ul  li a:hover::after{
 }
 .header-text h1{
     font-size: 60px;
+    font-family: lemonMilk;
     /* margin-top: 0px; */
 }
 .header-text #infor{
     width: 60%;
     margin-top: 125px;
     margin-left: 36%;
+    font-family: lemonMilkLight;
     display: inline-block;
 }
 .header-text #infor i{
@@ -166,6 +180,7 @@ nav  ul  li a:hover::after{
 } 
 .header-text h1 #bluec{
     color: #09F5F6;
+    font-family: lemonMilk;
 }
 
 
@@ -185,13 +200,14 @@ nav  ul  li a:hover::after{
     flex-wrap: wrap;
 }
 .about-p{
-    width: 90%;
+    width: 70%;
+    font-family: lemonMilkLight;
 }
 .about-col-1{
     flex-basis: 35%;
 }
 .about-col-1 img{
-    width: 50%;
+    width: 100%;
     margin-left: 20%;
     margin-top: 40px;
     border-radius: 10%;
@@ -208,13 +224,15 @@ nav  ul  li a:hover::after{
 }
 
 .sub-title{
-    color: #ababab;
+    color: aliceblue;
     font-size: 70px;
     font-weight: 600;
+    font-family: lemonMilk;
 }
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
+    font-family: lemonMilk;
 }
 .tab-links{
     margin-right: 50px;
@@ -222,6 +240,8 @@ nav  ul  li a:hover::after{
     font-weight: 500;
     cursor: pointer;
     position: relative;
+    color: aliceblue;
+    
 }
 .tab-links::after{
     content: '';
@@ -279,6 +299,7 @@ nav  ul  li a:hover::after{
       width: 100%;
       padding-bottom: 80px;
       margin-top: -100px;
+      font-family: lemonMilk;
       
       
 }
@@ -512,9 +533,11 @@ nav #cancel {
     .header-text{
         margin-top: 40%;
         font-size: 16px;
+        font-family: lemonMilk;
     }
     .header-text h1{
         font-size: 30px;
+        font-family: lemonMilk;
     }
     nav #ham{
         
@@ -523,6 +546,7 @@ nav #cancel {
         margin-right: 20px;
         cursor: pointer;
         transition: 0.5s;
+        font-family: lemonMilk;
     }
     nav ul {
         background: #09F5F6;
@@ -567,7 +591,7 @@ nav #cancel {
     width: 100%;
     display: inline-block;
 
-    font-family: "Raleway", sans-serif;
+    font-family: lemonMilk;
     font-size: 30pt;
 
     text-align: center;
