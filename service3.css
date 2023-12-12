@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: lemonMilk;
+  src: url(./lemon_milk/LEMONMILK-Regular.otf);
+}
 .threeholder {
     position: relative;
     margin-top: auto;
@@ -10,6 +13,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+  }
+  .threeholder:hover{
+    cursor: pointer;
   }
   .threeone {
     display: flex;
@@ -38,12 +44,13 @@
   }
   .threeone:hover {
     background: #09F5F6;
+    
   }
   .threeone:hover .circlepic {
     background: #fff;
   }
   .threeone:hover .circleborder{
-      background: #fff;
+    background: #fff;
   }
   .threeone:hover svg{
     fill:#09F5F6;
@@ -63,6 +70,7 @@
     width:200px;
     text-align: center;
     margin-left: -55px;
+    font-family: lemonMilk;
     margin-top: 20px;
     font-size: 12px;
     color:#8a8a8a;
@@ -71,6 +79,7 @@
   .threeone:hover h4 {
     color: #fff;
   }
+  
   .threetwo:hover h4 {
     color: #fff;
   }
