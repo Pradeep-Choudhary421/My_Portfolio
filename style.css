@@ -96,7 +96,7 @@ body {
     height: 80pt;
     top: 0;
     bottom: 0;
-
+    font-family: lemonMilkLight;
     filter: url(#threshold) blur(0.6px);
 }
 
@@ -106,7 +106,7 @@ body {
     width: 100%;
     display: inline-block;
 
-    font-family: "Raleway", sans-serif;
+    font-family: lemonMilkLight;
     font-size: 35pt;
 
     text-align: center;
