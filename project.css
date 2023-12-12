@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap'); */
+@font-face {
+    font-family: lemonMilk;
+    src: url(./lemon_milk/LEMONMILK-Regular.otf);
+  }
 ul,
 li {
     list-style: none;
+    font-family: lemonMilk;
 }
 
 a {
@@ -22,6 +26,9 @@ a {
     width: 100%; /* Full width for mobile */
     max-width: 350px; /* Limit card width on larger screens */
     height: 350px;
+}
+.card:hover{
+    cursor: pointer;
 }
 
 .face {
@@ -55,6 +62,7 @@ a {
     color: #fff;
     background: rgba(0, 0, 0, 0.4);
     text-align: center;
+    font-family: lemonMilk;
 }
 
 .card .back {
@@ -67,6 +75,7 @@ a {
     color: #fff;
     text-align: center;
     box-shadow: 0 5px 10px #fff;
+    font-family: lemonMilk;
 }
 
 .links {
@@ -83,10 +92,12 @@ a {
     font-size: 30px;
     padding-bottom: 20px;
     letter-spacing: 2px;
+    font-family: lemonMilk;
 }
 
 .card .back .text-p {
     letter-spacing: 1px;
+    font-family: lemonMilk;
 }
 
 .card:hover .front {
