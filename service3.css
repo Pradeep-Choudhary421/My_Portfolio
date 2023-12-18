@@ -295,7 +295,13 @@
   }
   
   }
-  @media (min-width: 350px) and (max-width: 500px) {
+  @media(max-width:580px){
+    .threethree svg{
+      margin-top: 33px;
+      margin-left: -56px;
+    }
+  }
+  @media (min-width: 200px) and (max-width: 500px) {
     .threeholder{
         width: 100%;
         margin-left: -5px;
@@ -304,9 +310,9 @@
        height:420px;
     }
     .threeholder p {
-        width: 65px;
-        font-size: 10px;
-        margin-left: -72px;
+        width: 60px;
+        font-size: 8px;
+        margin-left: -74px;
 
     }
     .threeone{
@@ -330,7 +336,7 @@
         margin-left: -132px;
       }
       .threethree h4 {
-        margin-left: -132px;
+        margin-left: -139px;
       }
   .threeone:hover h4 {
     margin-left: -132px;
@@ -339,7 +345,7 @@
     margin-left: -132px;
   }
   .threethree:hover h4 {
-    margin-left: -132px;
+    margin-left: -139px;
   }
 
   .circleborder {
@@ -371,7 +377,7 @@
   }
   .threethree svg{
     margin-top: 33px;
-    margin-left: -67px;
+    margin-left: -57px;
   }
   
   }
