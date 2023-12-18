@@ -88,7 +88,7 @@
   }
   .threeone:hover svg, .threetwo:hover svg, .threethree:hover svg {
     transition: all 0.65s;
-    transform: rotateY(360deg);
+    transform: rotateX(360deg);
   }
   .threetwo:hover {
     background: #09F5F6;
@@ -228,6 +228,86 @@
     .threeholder p {
         width: 80px;
         margin-left: -72px;
+    }
+    .threeone{
+        
+        align-items: center;
+        text-align: center;
+        width: 33%;
+        /* margin-left: -10px; */
+    }
+    .threetwo{
+        width: 33%;
+
+    }
+    .threethree{
+        width: 33%;
+    }
+    .threeone h4 {
+        margin-left: -132px;
+      }
+      .threetwo h4 {
+        margin-left: -132px;
+      }
+      .threethree h4 {
+        margin-left: -132px;
+      }
+  .threeone:hover h4 {
+    margin-left: -132px;
+  }
+  .threetwo:hover h4 {
+    margin-left: -132px;
+  }
+  .threethree:hover h4 {
+    margin-left: -132px;
+  }
+
+  .circleborder {
+    
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 90px;
+    background: #09F5F6;
+    margin-left: 88.33333px;
+    border-radius: 50%;
+
+  }
+  .circlepic {
+    width: 75px;
+    height: 75px;
+    position:absolute;
+    margin-left: 15.33333px;
+    
+    
+  }
+  .threeone svg{
+    margin-top: 33px;
+    margin-left: -67px;
+  }
+  .threetwo svg{
+    margin-top: 33px;
+    margin-left: -67px;
+  }
+  .threethree svg{
+    margin-top: 33px;
+    margin-left: -67px;
+  }
+  
+  }
+  @media (min-width: 350px) and (max-width: 500px) {
+    .threeholder{
+        width: 100%;
+        margin-left: -5px;
+        align-items: center;
+        text-align: center;
+       height:420px;
+    }
+    .threeholder p {
+        width: 65px;
+        font-size: 10px;
+        margin-left: -72px;
+
     }
     .threeone{
         
