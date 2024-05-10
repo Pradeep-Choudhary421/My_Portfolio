@@ -446,6 +446,7 @@ nav  ul  li a:hover::after{
     transition: 0.5s;
     
 
+    margin-bottom: 25px;
 }
 .btn2:hover{
     background-color: #09F5F6;
@@ -497,7 +498,7 @@ form input, form textarea{
     border-color: #09F5F6;
     padding: 1px;
     /* margin-left: 10%; */
-    margin-top: 100px;
+    margin-top: 300px;
 }
 #line-2{
     
@@ -556,7 +557,7 @@ nav #cancel {
         top: 0;
         right: -200px;
         width: 200px;
-        height: 100vh;
+        height: 100%;
         padding-top: 50px;
         z-index: 2;
         transition: 0.5s;
