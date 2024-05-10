@@ -548,7 +548,7 @@ nav #cancel {
         margin-right: 20px;
         cursor: pointer;
         transition: 0.5s;
-        font-family: lemonMilk;
+        /* font-family: lemonMilk; */
     }
     nav ul {
         background: #09F5F6;
